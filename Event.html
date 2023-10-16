@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PuddingFest Events</title>
+    <link rel="stylesheet" href="Event.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat&family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="wrapper">
+    <!-- Header -->
+    <nav class="animate__animated animate__slideInDown">
+        <div class="header">
+            <div class="nama animate__animated animate__delay-1s animate__zoomIn">
+                <a href="index.html">PuddingFest</a>
+            </div>
+
+            <div class="menu animate__animated animate__delay-1s animate__fadeIn">
+                <ul>
+                    <li><a href="index.html">ABOUT</a></li>
+                    <li><a href="Event.html">EVENTS</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+        
+    <!-- Content -->
+    <!-- List -->
+    <div class="rect">
+        <center>
+        <h1 class="animate__animated animate__fadeInDown animate__delay-1s animate__slow" id="list-head">LIST OF EVENTS</h1>
+        </center>
+        <div class="col animate__animated animate__delay-2s animate__fadeIn animate__slow" id="col1">
+            <div class="teks">
+                <h3 id="perusahaan1">Gojek</h3>
+                <h4 id="event-now1">Introducing Gojek Newest Features</h4>
+                <p id="detail1">
+                    Date: Sunday, April 24th 2022 (15.00 - 17.00 WIB)
+                    <br> Place: Online via Zoom
+                    <br> Speaker: Nadiem Makarim
+                </p>
+            </div>
+        </div>
+
+        <div class="col animate__animated animate__delay-2s animate__fadeIn animate__slow" id="col2">
+            <div class="teks">
+                <h3 id="perusahaan2">Tokopedia</h3>
+                <h4 id="event-now2">When i was 25 years old</h4>
+                <p id="detail2">
+                    Date: Tuesday, April 26th 2022 (13.00 - 15.00 WIB)
+                    <br> Place: Online via Zoom
+                    <br> Speaker: William Tanuwijaya
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Carousel -->
+    <center>
+    <div class="editcar animate__animated animate__delay-2s animate__fadeIn animate__slow">
+        <div id="carousel" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="EventImages/Gojek 1.png" class="d-block w-100" alt="Image Not Loaded">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Gojek</h2>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="EventImages/Gojek's event 1.png" class="d-block w-100" alt="Image Not Loaded">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Event</h4>
+                        <h6>Introducing Gojek Application Newest Features.</h6>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="EventImages/Tokopedia 1.png" class="d-block w-100" alt="Image Not Loaded">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Tokopedia</h2>
+                    </div>
+                </div>
+            
+                <div class="carousel-item">
+                    <img src="EventImages/Tokopedia's event 1.png" class="d-block w-100" alt="Image Not Loaded">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Event</h4>
+                        <h6>When i was 25 years old</h6>
+                    </div>
+                </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        </center>
+
+    <!-- Register -->
+    <div class="register">
+        <h3 id="form-head">Register Yourself Now!</h3>
+        <br>
+        <div class="mb-3">
+            <label for="Name" id="name">Full Name</label>
+            <input type="text" name="Full Name" class="form-control" id="userFullName" placeholder="Your Name" required/>
+        </div>
+    
+        <div class="error-msg" id="error_msg1"></div>
+        <div class="mb-3">
+            <label for="Email" id="email">Email</label>
+            <input type="Email" name="Email" class="form-control" id="userEmail" placeholder="Your Email" required/>
+        </div>
+    
+        <div class="error-msg" id="error_msg2"></div>
+        <div class="mb-3">
+            <label for="PhoneNumber" id="phonenumber">Phone Number</label>
+            <input type="text" name="PhoneNumber" class="form-control" id="userPhoneNumber" placeholder="Your Phone Number" required/>
+        </div>
+    
+        <div class="error-msg" id="error_msg3"></div>
+        <div class="mb-3">
+            <label for="Options" id="options">Choose Events</label>
+            <select name="Options" class="form-control" id="userOptions">
+                <option value="options-number-gojek" id="options-value-gojek">Gojek - Introducing Gojek Application Newest Features</option>
+                <option value="options-number-tokopedia" id="options-value-tokopedia">Tokopedia - When I Was 25 Years Old</option>
+            </select>
+        </div>
+            
+        <button class="btn btn-warning" id="Submit">Submit</button>
+        <div id="successAlert" class="d-none alert alert-success" role="alert">
+            You Are Registered! Check Your Email for Further Information! 
+        </div>
+        
+        <div class="sticker animate__animated animate__fadeIn">
+            <img src="EventImages/sticker.png" alt="Image Not Loaded">
+        </div>
+
+        <div class="stickerr animate__animated animate__fadeIn">
+            <img src="EventImages/stickerr.png" alt="Image Not Loaded">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="foot">
+
+        <div class="fllw">
+            <p>Follow Us!</p>
+        </div>
+
+        <div class="image_foot">
+            <div class="discord">
+                <img src="FooterImages/Discord.png" alt="Image Not Loaded">
+            </div>
+
+            <div class="instagram">
+                <img src="FooterImages/Instagram.png" alt="Image Not Loaded">
+            </div>
+            
+            <div class="youtube">
+                <img src="FooterImages/YouTube.png" alt="Image Not Loaded">
+            </div>
+        </div>
+
+    <div id="footer">
+        © PuddingFest 2022, All Rights Reserved.
+    </div>
+
+    <div id="result"></div>
+    
+</body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-firestore.js"></script>
+    <script src="./Event.js"></script>
+</html>

@@ -1,0 +1,736 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    background-color: #ffffff;
+    background-image: url(AboutImages/BG\ About.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.header{
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.header{
+    width: 92%;
+    margin: auto;
+    position: relative;
+}
+
+.nama{
+    font-size: 50px;
+    float: left;
+    font-weight: bold;
+}
+
+.nama a{
+    padding-right: 0px;
+    font-family: 'Caveat', cursive;
+    color: #5377F6;
+    text-decoration: none;
+}
+
+.menu{
+    float: right;
+}
+
+nav{
+    top: 0;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 25px 0px 25px 0px;
+    display: flex;
+    line-height: 20px;
+    background: #ffffff;
+    border-radius: 35px;
+    
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 0px 40px 0px 40px;
+}
+
+nav ul li a:hover{
+    color: #48bfe3;
+    transition: 1 ease;
+}
+
+nav ul li{
+    text-decoration: none;
+}
+
+h1{
+    margin-bottom: 0px;
+    text-decoration:  3px #ffffff;
+}
+
+.About{
+    float: left;
+    padding: 0px 0px 0px 0px;
+    margin: 100px 0px 50px 300px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-weight: Bold;
+    color: #48bfe3;
+    text-decoration: underline 8px #5377F6;
+}
+
+.para{
+    float: left;
+    margin: 0px 0px 0px 80px;
+    padding: 0px 800px 0px 240px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: justify;
+    color: #ffffff;
+}
+
+.sticker{
+    position: relative;
+    float: right;
+    top: -170px;
+    margin-bottom: -20px;
+    padding-bottom: 0px;
+}
+
+.foot{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 890px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    background-color: black;
+}
+
+.fllw{
+    padding-top: 1rem;
+    padding-left: 2rem;
+    font-size: 1.25rem;
+    text-align: left;
+    color: #ffffff
+}
+
+.image_foot{
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+#footer{
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+    font-size: 1.25rem;
+    text-align: right;
+    color: #ffffff
+}
+
+.youtube,.instagram,.discord{
+    padding-right: 2rem;
+}
+
+@media screen and (max-width: 1680px){
+    #wrapper{
+        display: block;
+    }
+
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .header{
+        width: 90%;
+        margin: auto;
+        position: relative;
+    }
+
+    .nama{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    
+    .nama a{
+        padding-right: 0px;
+        font-family: 'Caveat', cursive;
+        color: #5377F6;
+        text-decoration: none;
+    }
+    
+    .menu{
+        float: right;
+    }
+    
+    nav{
+        top: 0;
+        width: 85%;
+        margin: auto;
+        margin-top: 50px;
+        padding: 25px 0px 25px 0px;
+        display: flex;
+        line-height: 20px;
+        background: #ffffff;
+        border-radius: 35px;
+    }
+    
+    nav ul{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    nav ul li{
+        float: left;
+    }
+    
+    nav ul li a{
+        color: black;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        padding: 0px 0px 0px 80px;
+    }
+    
+    nav ul li a:hover{
+        color: #48bfe3;
+        transition: 1 ease;
+    }
+    
+    nav ul li{
+        text-decoration: none;
+    }
+    
+    h1{
+        margin-bottom: 0px;
+        text-decoration:  3px #ffffff;
+    }
+    
+    .About{
+        float: left;
+        padding: 0px 0px 0px 60px;
+        margin: 50px 0px 50px 120px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 22px;
+        font-weight: Bold;
+        color: #48bfe3;
+        text-decoration: underline 8px #5377F6;
+    }
+    
+    .para{
+        float: left;
+        margin: 0px 50px 0px 200px;
+        padding: 0px 650px 0px 40px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: normal;
+        font-size: 22px;
+        text-align: justify;
+        color: #ffffff;
+    }
+    
+    .sticker{
+
+        position: relative;
+        top: -300px;
+        margin-bottom: -200px;
+        padding-bottom: 0px;
+    }
+    
+    .foot{
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 680px;
+        background-color: black;
+    }
+    
+    .fllw{
+        padding-top: 1rem;
+        padding-left: 2rem;
+        font-size: 1.25rem;
+        text-align: left;
+        color: #ffffff
+    }
+    
+    .image_foot{
+        padding-left: 2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+    
+    #footer{
+        position: relative;
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+        padding-right: 2rem;
+        font-size: 1.25rem;
+        text-align: right;
+        color: #ffffff
+    }
+    
+    .youtube,.instagram,.discord{
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (max-width: 1080px){
+    #wrapper{
+        display: block;
+    }
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        background-color: #ffffff;
+        background-image: url(AboutImages/BG\ About.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .header{
+        width: 80%;
+        margin: auto;
+        position: relative;
+    }
+
+    .nama{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    
+    .nama a{
+        padding-right: 0px;
+        font-family: 'Caveat', cursive;
+        color: #5377F6;
+        text-decoration: none;
+    }
+    
+    .menu{
+        float: right;
+    }
+    
+    nav{
+        top: 0;
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+        padding: 25px 0px 25px 0px;
+        display: flex;
+        line-height: 20px;
+        background: #ffffff;
+        border-radius: 35px;
+    }
+    
+    nav ul{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    nav ul li{
+        float: left;
+    }
+    
+    nav ul li a{
+        color: black;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        padding: 0px 0px 0px 80px;
+    }
+    
+    nav ul li a:hover{
+        color: #48bfe3;
+        transition: 1 ease;
+    }
+    
+    nav ul li{
+        text-decoration: none;
+    }
+    
+    h1{
+        margin-bottom: 0px;
+        text-decoration:  3px #ffffff;
+    }
+    
+    .About{
+        float: left;
+        padding: 0px 0px 0px 75px;
+        margin: 50px 0px 50px 120px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 22px;
+        font-weight: Bold;
+        color: #48bfe3;
+        text-decoration: underline 8px #5377F6;
+    }
+    
+    .para{
+        float: left;
+        margin: 0px 50px 0px 225px;
+        padding: 0px 200px 0px 40px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: normal;
+        font-size: 22px;
+        text-align: justify;
+        color: #ffffff;
+    }
+    
+    .sticker{
+        top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    
+    .foot{
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1000px;
+        background-color: black;
+    }
+    
+    .fllw{
+        padding-top: 1rem;
+        padding-left: 2rem;
+        font-size: 1.25rem;
+        text-align: left;
+        color: #ffffff
+    }
+    
+    .image_foot{
+        padding-left: 2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+    
+    #footer{
+        position: relative;
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+        padding-right: 2rem;
+        font-size: 1.25rem;
+        text-align: right;
+        color: #ffffff
+    }
+    
+    .youtube,.instagram,.discord{
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #wrapper{
+        display: block;
+    }
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-color: #ffffff;
+        background-image: url(AboutImages/BG\ About.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .header{
+        width: 90%;
+        margin: auto;
+        position: relative;
+    }
+
+    .nama{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    
+    .nama a{
+        padding-right: 0px;
+        font-family: 'Caveat', cursive;
+        color: #5377F6;
+        text-decoration: none;
+    }
+    
+    .menu{
+        float: right;
+    }
+    
+    nav{
+        top: 0;
+        width: 85%;
+        margin: auto;
+        margin-top: 50px;
+        padding: 25px 25px 25px 25px;
+        display: flex;
+        line-height: 20px;
+        background: #ffffff;
+        border-radius: 35px;
+    }
+    
+    nav ul{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    nav ul li{
+        float: left;
+    }
+    
+    nav ul li a{
+        color: black;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        padding: 0px 30px 0px 0px;
+    }
+    
+    nav ul li a:hover{
+        color: #48bfe3;
+        transition: 1 ease;
+    }
+    
+    nav ul li{
+        text-decoration: none;
+    }
+    
+    h1{
+        margin-bottom: 0px;
+        text-decoration:  3px #ffffff;
+    }
+    
+    .About{
+        float: left;
+        padding: 0px 0px 0px 0px;
+        margin: 100px 0px 50px 70px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 22px;
+        font-weight: Bold;
+        color: #48bfe3;
+        text-decoration: underline 8px #5377F6;
+    }
+    
+    .para{
+        float: left;
+        margin: 0px 50px 0px 80px;
+        padding: 0px 50px 0px 50px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: normal;
+        font-size: 20px;
+        text-align: justify;
+        color: #ffffff;
+    }
+    
+    .sticker{
+        margin-top: 100px;
+    }
+
+    .foot{
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1090px;
+        background-color: black;
+    }
+    
+    .fllw{
+        padding-top: 1rem;
+        padding-left: 2rem;
+        font-size: 1.25rem;
+        text-align: left;
+        color: #ffffff
+    }
+    
+    .image_foot{
+        padding-left: 2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+    
+    #footer{
+        position: relative;
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+        padding-right: 2rem;
+        font-size: 1.25rem;
+        text-align: right;
+        color: #ffffff
+    }
+    
+    .youtube,.instagram,.discord{
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (max-width: 576px){
+    #wrapper{
+        display: block;
+    }
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+    
+    .header{
+        width: 100%;
+        margin: auto;
+        position: relative;
+    }
+
+    .nama{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    
+    .nama a{
+        padding-right: 0px;
+        font-family: 'Caveat', cursive;
+        color: #5377F6;
+        text-decoration: none;
+    }
+    
+    .menu{
+        float: right;
+    }
+    
+    nav{
+        top: 0;
+        width: 85%;
+        margin: auto;
+        margin-top: 50px;
+        padding: 25px 25px 25px 25px;
+        display: flex;
+        line-height: 20px;
+        background: #ffffff;
+        border-radius: 35px;
+    }
+    
+    nav ul{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    nav ul li{
+        float: left;
+    }
+    
+    nav ul li a{
+        color: black;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        padding: 0px 25px 0px 0px;
+    }
+    
+    nav ul li a:hover{
+        color: #48bfe3;
+        transition: 1 ease;
+    }
+    
+    nav ul li{
+        text-decoration: none;
+    }
+    
+    h1{
+        margin-bottom: 0px;
+        text-decoration:  3px #ffffff;
+    }
+    
+    .About{
+        float: left;
+        padding: 0px 0px 0px 0px;
+        margin: 100px 0px 50px 70px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        font-weight: Bold;
+        color: #48bfe3;
+        text-decoration: underline 8px #5377F6;
+    }
+    
+    .para{
+        float: left;
+        margin: 0px 50px 100px 80px;
+        padding: 0px 50px 0px 50px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: normal;
+        font-size: 18px;
+        text-align: justify;
+        color: #ffffff;
+    }
+
+    .sticker{
+        margin-top: 0px;
+        margin-left: -150px;
+        float: left;
+    }
+    
+    .foot{
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        bottom: -700px;
+        background-color: black;
+    }
+    
+    .fllw{
+        padding-top: 1rem;
+        padding-left: 2rem;
+        font-size: 1.25rem;
+        text-align: left;
+        color: #ffffff
+    }
+    
+    .image_foot{
+        padding-left: 2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+    
+    #footer{
+        position: relative;
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+        padding-right: 2rem;
+        font-size: 1.25rem;
+        text-align: right;
+        color: #ffffff
+    }
+    
+    .youtube,.instagram,.discord{
+        padding-right: 2rem;
+    }
+}
